@@ -1,11 +1,39 @@
-@import '../components/modules';
-@import '../components/reusable';
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap')
+
+@import '../components/modules'
+@import '../components/reusable'
+@import '../pages'
+
+*
+  font-family: Roboto
 
 html, body, #root, .app
   margin: 0
   padding: 0
   width: 100%
-  height: 100%
 
-.app 
+.app
+  margin-top: 50px
   background: #282C34
+
+h1, h2, h3, h4, h5
+  margin: 0
+
+h1
+  font-weight: normal
+  font-size: 36px
+  line-height: 42px
+  color: #C0C0C1
+
+button
+  cursor: pointer
+
+.section
+  margin: 45px 0
+  &__name
+    font-weight: normal
+    font-size: 18px
+    line-height: 21px
+    color: #87898E
+  &__content
+    margin-top: 15px
