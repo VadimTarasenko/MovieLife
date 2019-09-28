@@ -2,39 +2,8 @@ import React from 'react';
 
 import { ContentWrapper, Slider, MovieCard, Pagination } from 'components/reusable';
 
-// const movies = [{
-//   img: 'https://upload.wikimedia.org/wikipedia/ru/thumb/4/4c/Once_Upon_a_Time_in_Hollywood.jpg/269px-Once_Upon_a_Time_in_Hollywood.jpg',
-//   name: 'Однажди в голливуде',
-//   year: '2019',
-//   country: 'США',
-//   genre: 'Драма'
-// }, {
-//   img: 'https://upload.wikimedia.org/wikipedia/ru/thumb/4/4c/Once_Upon_a_Time_in_Hollywood.jpg/269px-Once_Upon_a_Time_in_Hollywood.jpg',
-//   name: 'Однажди в голливуде',
-//   year: '2019',
-//   country: 'США',
-//   genre: 'Драма'
-// }, {
-//   img: 'https://upload.wikimedia.org/wikipedia/ru/thumb/4/4c/Once_Upon_a_Time_in_Hollywood.jpg/269px-Once_Upon_a_Time_in_Hollywood.jpg',
-//   name: 'Однажди в голливуде',
-//   year: '2019',
-//   country: 'США',
-//   genre: 'Драма'
-// }, {
-//   img: 'https://upload.wikimedia.org/wikipedia/ru/thumb/4/4c/Once_Upon_a_Time_in_Hollywood.jpg/269px-Once_Upon_a_Time_in_Hollywood.jpg',
-//   name: 'Однажди в голливуде',
-//   year: '2019',
-//   country: 'США',
-//   genre: 'Драма'
-// }, {
-//   img: 'https://upload.wikimedia.org/wikipedia/ru/thumb/4/4c/Once_Upon_a_Time_in_Hollywood.jpg/269px-Once_Upon_a_Time_in_Hollywood.jpg',
-//   name: 'Однажди в голливуде',
-//   year: '2019',
-//   country: 'США',
-//   genre: 'Драма'
-// }];
-
 function Main({ movies }) {
+  
   movies.length = 30;
 
   return (
