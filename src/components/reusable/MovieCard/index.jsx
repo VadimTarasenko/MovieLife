@@ -4,11 +4,12 @@ function MovieCard({ img, name, year, country, genre }) {
   return (
     <div className='movie-card'>
       <div className='movie-card__photo'>
+        <div className='movie-card__photo-ratio' />
         <img src={img} alt="title" />
       </div>
       <div className="movie-card__info">
         <h5>{name}</h5>
-        <span>{`${year}, ${country}, ${genre}`}</span>
+        <span>{`${year}`}</span>
       </div>
     </div>
   );
