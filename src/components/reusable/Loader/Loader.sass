@@ -1,3 +1,14 @@
+.loader-shadow
+  position: fixed
+  top: 50px
+  left: 0
+  width: 100%
+  height: calc(100vh - 50px)
+  display: flex
+  align-items: center
+  justify-content: center
+  background: rgba(0,0,0,.5)
+  
 .loader
   position: relative
   display: grid
@@ -13,8 +24,8 @@
     transform: scale(0.0)
     transform-origin: center center
     animation: loader 2s infinite linear
-    &:nth-of-type(1), 
-    &:nth-of-type(5), 
+    &:nth-of-type(1),
+    &:nth-of-type(5),
     &:nth-of-type(9)
       animation-delay: 0.4s
     &:nth-of-type(4),
