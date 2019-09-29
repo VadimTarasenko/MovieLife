@@ -3,10 +3,8 @@ import React from 'react';
 import { MovieCard } from 'components/reusable';
 import Arrow from 'assets/Arrow.svg';
 
+
 function Slider({ items }) {
-
-
-
   return (
     <div className='slider'>
       <div className='slider__content'>

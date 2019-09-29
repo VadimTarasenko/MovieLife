@@ -2,7 +2,7 @@ import React from 'react';
 
 function MovieCard({ img, name, year, country, genre }) {
   return (
-    <div className='movie-card'>
+    <a className='movie-card' href='#'>
       <div className='movie-card__photo'>
         <div className='movie-card__photo-ratio' />
         <img src={img} alt="title" />
@@ -11,7 +11,7 @@ function MovieCard({ img, name, year, country, genre }) {
         <h5>{name}</h5>
         <span>{`${year}`}</span>
       </div>
-    </div>
+    </a>
   );
 }
 
