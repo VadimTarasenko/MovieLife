@@ -7,3 +7,30 @@
     grid-column-gap: 20px 
   &__pagination
     margin-top: 40px
+  &__loader
+    // position: absolute
+    // width: fit-content
+    // top: 50%
+    // left: 50%
+    // transform: translate(-50%, -50%)
+    position: fixed
+
+    top: 50px
+    left: 0
+    width: 100%
+    height: calc(100vh - 50px)
+    display: flex
+    align-items: center
+    justify-content: center
+    background: rgba(0,0,0,.5)
+
+
+@media ($tablet)
+  .main-page
+    &__movies
+      grid-template-columns: 1fr 1fr
+
+@media ($phone)
+  .main-page
+    &__movies
+      grid-template-columns: 1fr

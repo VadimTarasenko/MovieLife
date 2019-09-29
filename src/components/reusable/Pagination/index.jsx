@@ -16,9 +16,6 @@ function Pagination() {
       <button className='pagination__item'>6</button>
       <button className='pagination__item'>7</button>
       <button className='pagination__item'>8</button>
-      <button className='pagination__item'>9</button>
-      <button className='pagination__item'>10</button>
-      <button className='pagination__item'>11</button>
       <button className='pagination__item pagination__arrow_right'>
         <img src={ArrowIcon} alt="" />
       </button>
