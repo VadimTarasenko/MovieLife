@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function MovieCard({ id, img, name, year, country, genre }) {
   return (
-    <Link className='movie-card' to={`/film/${id}`}>
+    <Link className='movie-card' to={`/film?id=${id}`}>
       <div className='movie-card__photo'>
         <div className='movie-card__photo-ratio' />
         <img src={img} alt="title" />
