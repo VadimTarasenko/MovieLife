@@ -12,6 +12,6 @@ const mapStateToProps = ({ mainPage }) => ({
 const mapDispatchToProps = (dispatch) => ({
   ...bindActionCreators(mainPageActions, dispatch),
   getAllMovies: getAllMovies(dispatch)
-})
+});
 
 export default connect(mapStateToProps, mapDispatchToProps)(MainPage); 
