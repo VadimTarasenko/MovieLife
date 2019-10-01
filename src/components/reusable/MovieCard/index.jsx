@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-function MovieCard({ img, name, year, country, genre }) {
+function MovieCard({ id, img, name, year, country, genre }) {
   return (
-    <a className='movie-card' href='/movie/undefined'>
+    <Link className='movie-card' to={`/film/${id}`}>
       <div className='movie-card__photo'>
         <div className='movie-card__photo-ratio' />
         <img src={img} alt="title" />
@@ -11,7 +12,7 @@ function MovieCard({ img, name, year, country, genre }) {
         <h5>{name}</h5>
         <span>{`${year}`}</span>
       </div>
-    </a>
+    </Link>
   );
 }
 

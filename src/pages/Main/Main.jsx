@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
 import { ContentWrapper, Slider, MovieCard, Pagination, Loader } from 'components/reusable';
-
 import ImgPlaceholder from 'assets/ImgPlaceholder.png';
 
 function Main(props) {
@@ -15,7 +14,7 @@ function Main(props) {
     setTimeout(() => {
       getAllMovies({
         success: () => setIsDataLoaded(true),
-        error: () => setIsDataLoaded(false)
+        error: () => setIsDataLoaded(true)
       });
     }, 3000);
   }, [getAllMovies]);

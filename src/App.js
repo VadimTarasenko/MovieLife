@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 import { Header } from 'components/modules';
-import { Main } from 'pages';
+import Root from './Root';
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
   return (
     <div className='app'>
       <Header />
-      <Main />
+      <Root />
     </div>
   );
 }
